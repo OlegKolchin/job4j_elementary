@@ -7,9 +7,10 @@ public class Calculator {
         int four = 4;
         int five = 5;
         int six = 6;
+        int onePlusTwo = one+two;
         int sixDivTwo = six/two;
         int fiveMinusTwo = five-two;
         int fourTimeTwo = four*two;
-        System.out.printf("%d%n%d%n%d", sixDivTwo, fiveMinusTwo, fourTimeTwo);
+        System.out.printf("%d%n%d%n%d%n%d", onePlusTwo, sixDivTwo, fiveMinusTwo, fourTimeTwo);
     }
 }
