@@ -8,7 +8,7 @@ public class Triangle {
     }
 
     public static void main(String[] args) {
-        boolean triangle = Triangle.exist(3, 2, 6);
+        boolean triangle = Triangle.exist(2, 2, 8);
         System.out.println(triangle);
     }
 }
