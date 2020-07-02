@@ -12,7 +12,7 @@ public class MultiMax {
     }
 
     public static void main(String[] args) {
-        int biggest = MultiMax.max(7, 8, 10);
+        int biggest = MultiMax.max(8, 10, 13);
         System.out.println(biggest);
     }
 
