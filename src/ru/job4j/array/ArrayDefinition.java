@@ -1,7 +1,5 @@
 package ru.job4j.array;
 
-import java.sql.SQLOutput;
-
 public class ArrayDefinition {
     public static void main(String[] args) {
         short[] ages = new short[10];
