@@ -7,6 +7,7 @@ public class Check {
         for (int index = 0; index < data.length; index++) {
             if (data[index] != result) {
                 result = false;
+                break;
             }
 
         }
