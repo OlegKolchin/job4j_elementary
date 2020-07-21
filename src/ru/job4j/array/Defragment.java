@@ -5,10 +5,12 @@ public class Defragment {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
                 int point = index;
-                for (index = array.length - 1; index > point; index--) {
-                    if (array[index] != null) {
-                        int string = index;
+                for (int string = index; string < array.length; string++) {
+                    if (array[string] != null) {
+
                         array = SwitchArray.swap(array, point, string);
+                        break;
+
                     }
 
                 }
