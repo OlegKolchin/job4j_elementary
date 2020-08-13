@@ -6,14 +6,11 @@ public class MultiMax {
         int result = condition ? first : second;
         condition = result > third;
         result = condition ? result : third;
-
         return result;
-
     }
 
     public static void main(String[] args) {
         int biggest = MultiMax.max(8, 10, 13);
         System.out.println(biggest);
     }
-
 }

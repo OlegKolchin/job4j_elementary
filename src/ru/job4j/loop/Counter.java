@@ -7,7 +7,6 @@ public class Counter {
             sum = sum + index;
         }
         return sum;
-
     }
 
     public static int sumByEven(int start, int finish) {
@@ -18,7 +17,6 @@ public class Counter {
             }
         }
         return sum;
-
     }
 
     public static void main(String[] args) {
@@ -27,10 +25,7 @@ public class Counter {
         System.out.println(sum(1, 1));
         System.out.println(sum(5, 9));
         System.out.println(sum(12, 13));
-
         System.out.println(sumByEven(1, 10));
         System.out.println(sumByEven(2, 5));
-
     }
-
 }

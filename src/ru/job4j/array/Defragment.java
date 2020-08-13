@@ -7,16 +7,11 @@ public class Defragment {
                 int point = index;
                 for (int string = index; string < array.length; string++) {
                     if (array[string] != null) {
-
                         array = SwitchArray.swap(array, point, string);
                         break;
-
                     }
-
                 }
-
             }
-
         }
         return array;
     }

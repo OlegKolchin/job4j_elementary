@@ -7,7 +7,6 @@ public class Square {
             rst[index] = index * index;
         }
         return rst;
-
     }
 
     public static void main(String[] args) {
@@ -15,6 +14,5 @@ public class Square {
         for (int index = 0; index < array.length; index++) {
             System.out.println(array[index]);
         }
-
     }
 }

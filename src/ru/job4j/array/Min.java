@@ -7,7 +7,6 @@ public class Min {
             if (array[index] < min) {
                 min = array[index];
             }
-
         }
         return min;
     }
