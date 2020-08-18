@@ -22,4 +22,16 @@ public class MaxTest {
         int result = Max.max(4, 4);
         assertThat(result, is(4));
     }
+
+    @Test
+    public void whenMax4To3To5Then5() {
+        int result = Max.max(3, 4, 5);
+        assertThat(result, is(5));
+    }
+
+    @Test
+    public void whenMax33To35To40To1Then40() {
+        int result = Max.max(33, 35, 40, 1);
+        assertThat(result, is(40));
+    }
 }
